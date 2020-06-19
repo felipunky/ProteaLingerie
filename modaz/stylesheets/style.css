@@ -1552,7 +1552,7 @@ article .entry-post {
 article .more-link a {
 	position: relative;
 	display: inline-block;
-	color: #f63440;
+	color: #ffffff;
 	font-weight: 500;
 	line-height: 46px;
 }
@@ -1560,7 +1560,7 @@ article .more-link a {
 article .more-link a:after {
 	content: "\f101";
 	font-family: "FontAwesome";
-	color: #f63440;
+	color: #ffffff;
 	position: absolute;
 	top: 0px;
 	right: -12px;
@@ -2465,12 +2465,12 @@ article .more-link a:hover:after {
 .flat-social li a {
 	font-size: 18px;
 	line-height: 45px;
-	color:  #333333;
+	color:  #686868;
 	margin:  0px 0px 0px 17px;
 }
 
 .flat-social li a:hover {
-	color: #f63440;
+	color: #000000;
 }
 
 /* Rev Slider
@@ -2512,7 +2512,7 @@ article .more-link a:hover:after {
 }
 
 .widget.widget-link ul li a:hover {
-	color: #f63440;
+	color: #afafaf;
 }
 
 /* Footer bottom
@@ -2533,7 +2533,7 @@ article .more-link a:hover:after {
 }
 
 .footer-bottom .copyright a:hover {
-	color: #f63440;
+	color: #a0a0a0;
 }
 
 /* Go top

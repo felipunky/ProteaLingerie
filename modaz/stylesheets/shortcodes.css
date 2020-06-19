@@ -2421,7 +2421,7 @@
 }
 
 .flat-filter.style-1 li a:hover {
-	color: #f63440;
+	color: #030303;
 }
 
 .flat-filter.style-1 li.active a:hover {
@@ -2429,9 +2429,9 @@
 }
 
 .flat-filter.style-1 li.active a {
-	background-color: #f63440;
+	background-color: #747474;
 	color: #fff;
-	border-color: #f63440;
+	border-color: #747474;
 }
 
 
