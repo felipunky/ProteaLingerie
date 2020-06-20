@@ -622,7 +622,7 @@
 }
 
 .themesflat-button:hover {
-	background-color: #f63440;
+	background-color: #000000;
 	color: #fff;
 }
 
@@ -2498,7 +2498,7 @@
 }
 /* Style 1 */
 .flat-icon-box.style-1 .icon-wrap {
-	color: #f63440;
+	color: #000000;
 }
 
 .flat-icon-box.style-1 .text-wrap .heading {
