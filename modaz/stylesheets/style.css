@@ -2582,6 +2582,16 @@ article .more-link a:hover:after {
 	color: #fff;
 }
 
+/* Whatsapp Button
+---------------------------------------------------------------*/
+.go-whats {
+    background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+
 /* Parallax
 ---------------------------------------------------------------*/
 .parallax {
@@ -2968,4 +2978,25 @@ article .more-link a:hover:after {
   	-webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.02);
   	   -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.02);
   	        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.02);
+}
+
+/* Customizacion 
+-------------------------------------------------------------- */
+#whats { 
+	z-index: 4;
+	position:fixed; 
+	top:95%; 
+	left:2%; 
+	background-color: green;
+	border-radius: 25px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#whats a {
+	color: rgb(255, 255, 255);
+}
+
+#whats a:hover {
+	color: rgb(98, 98, 98);
 }
