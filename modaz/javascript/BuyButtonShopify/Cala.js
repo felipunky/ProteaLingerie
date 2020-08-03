@@ -24,8 +24,8 @@
           });
           ShopifyBuy.UI.onReady(client).then(function (ui) {
             ui.createComponent('product', {
-              id: '5488549462166',
-              node: document.getElementById('product-component-1594940282785'),
+              id: '5488634921110',
+              node: document.getElementById('product-component-1596473184739'),
               moneyFormat: '%24%7B%7Bamount_with_comma_separator%7D%7D',
               options: {
         "product": {
@@ -35,12 +35,16 @@
                 "max-width": "calc(25% - 20px)",
                 "margin-left": "20px",
                 "margin-bottom": "50px"
+              },
+              "carousel-button": {
+                "display": "none"
               }
             },
+            "title": {
+              "font-size": "17px",
+              "color": "#000000"
+            },
             "button": {
-              "font-size": "14px",
-              "padding-top": "15px",
-              "padding-bottom": "15px",
               ":hover": {
                 "background-color": "#000000"
               },
@@ -48,22 +52,26 @@
               ":focus": {
                 "background-color": "#000000"
               },
-              "border-radius": "0px",
-              "padding-left": "100px",
-              "padding-right": "100px"
+              "border-radius": "20px",
+              "padding-left": "31px",
+              "padding-right": "31px"
             },
-            "quantityInput": {
-              "font-size": "14px",
-              "padding-top": "15px",
-              "padding-bottom": "15px"
+            "price": {
+              "font-size": "16px"
+            },
+            "compareAt": {
+              "font-size": "13.6px"
+            },
+            "unitPrice": {
+              "font-size": "13.6px"
             }
           },
-          "buttonDestination": "modal",
           "contents": {
-            "options": false
+            "img": false,
+            "imgWithCarousel": true
           },
           "text": {
-            "button": "View product"
+            "button": "AGEGAR AL CARRITO"
           }
         },
         "productSet": {
@@ -91,9 +99,6 @@
               }
             },
             "button": {
-              "font-size": "14px",
-              "padding-top": "15px",
-              "padding-bottom": "15px",
               ":hover": {
                 "background-color": "#000000"
               },
@@ -101,14 +106,9 @@
               ":focus": {
                 "background-color": "#000000"
               },
-              "border-radius": "0px",
-              "padding-left": "100px",
-              "padding-right": "100px"
-            },
-            "quantityInput": {
-              "font-size": "14px",
-              "padding-top": "15px",
-              "padding-bottom": "15px"
+              "border-radius": "20px",
+              "padding-left": "31px",
+              "padding-right": "31px"
             }
           },
           "text": {
@@ -118,9 +118,6 @@
         "cart": {
           "styles": {
             "button": {
-              "font-size": "14px",
-              "padding-top": "15px",
-              "padding-bottom": "15px",
               ":hover": {
                 "background-color": "#000000"
               },
@@ -128,7 +125,7 @@
               ":focus": {
                 "background-color": "#000000"
               },
-              "border-radius": "0px"
+              "border-radius": "20px"
             }
           },
           "text": {
@@ -146,9 +143,6 @@
               ":focus": {
                 "background-color": "#000000"
               }
-            },
-            "count": {
-              "font-size": "14px"
             }
           }
         }
