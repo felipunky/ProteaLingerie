@@ -2987,9 +2987,9 @@ article .more-link a:hover:after {
 	position:fixed; 
 	top:95%; 
 	left:2%; 
-	background-color: green;
+	background-color: rgb(0, 0, 0);
 	border-radius: 25px;
-	font-size: 16px;
+	font-size: 12px;
 	text-align: center;
 }
 
