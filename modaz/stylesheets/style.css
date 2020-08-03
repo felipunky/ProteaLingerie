@@ -3000,3 +3000,23 @@ article .more-link a:hover:after {
 #whats a:hover {
 	color: rgb(98, 98, 98);
 }
+
+/* Store 
+-------------------------------------------------------------- */
+
+#tienda {
+	color: white;
+}
+
+#tienda:hover {
+	color: #f63440;
+}
+
+#Bralette {
+	font-size: 36px;
+	color: white;
+}
+
+#Bralette:hover {
+	color: #f63440;
+}
