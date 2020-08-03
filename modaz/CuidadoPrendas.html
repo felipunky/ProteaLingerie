@@ -143,16 +143,21 @@
         </div><!-- /#site-header-wrap -->
 
     	<!-- Page title -->
-    	<div class="page-title parallax parallax1">
+        <div class="lazyload page-title parallax parallax1" style="background-image:url(images/Index/12_Small.JPG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;"  
+        data-original="images/Index/12.JPG">
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12">
     					<div class="page-title-heading">
-    						<h1 class="title">Cuidado de Prendas</h1>
+    						<h1 class="title" style="color: white">Cuidado de Prendas</h1>
     					</div><!-- /.page-title-heading -->
     					<div class="breadcrumbs">
-    						<ul>
-    							<li><a href="index.html">Home</a></li>
+    						<ul >
+    							<li><a href="../index.html">Home</a></li>
     							<li><a href="contact.html">Cuidado de Prendas</a></li>
     						</ul>
     					</div><!-- /.breadcrumbs -->
@@ -319,5 +324,13 @@
     <script src="rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+
+    <script src="javascript/lazyload.min.js"></script>
+    <script>
+        window.addEventListener("load", function(event) {
+            let images = document.querySelectorAll("[data-original]");
+            let lazy = lazyload(images, {"src": "data-original"});
+        });
+    </script>
 </body> 
 </html>                               
