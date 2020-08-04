@@ -1151,7 +1151,7 @@ h6 { font-size: 14px; line-height: 48px; font-weight: 400;}
 }
 
 .header-style-2.has-menu-extra .nav-wrap {
-	right: 12%;
+	right: 15%;
 	transform: translate(50%, -50%);	
 }
 
@@ -1220,7 +1220,7 @@ h6 { font-size: 14px; line-height: 48px; font-weight: 400;}
 	   -moz-transition: all 0.3s ease-in-out;
 	    -ms-transition: all 0.3s ease-in-out;
 	     -o-transition: all 0.3s ease-in-out;
-	        transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
 }
 
 #mainnav ul.submenu:before {
@@ -2598,6 +2598,7 @@ article .more-link a:hover:after {
 	width: 100%;
 	background-attachment: fixed;
 	background-position: 50% 0;
+	z-index: 0;
 }
 
 .parallax .overlay {

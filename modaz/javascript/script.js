@@ -12,3 +12,9 @@ jQuery('#rev-slider1').show().revolution({
     /* settings continued */
     /* ****************** */
 });
+
+/*$( ".goBackwards" ).hover( function() {
+
+    $( ".parallax2" ).fadeOut();
+
+} );*/
