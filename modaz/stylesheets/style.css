@@ -2582,16 +2582,6 @@ article .more-link a:hover:after {
 	color: #fff;
 }
 
-/* Whatsapp Button
----------------------------------------------------------------*/
-.go-whats {
-    background-color: #c0c0c0;
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:100;
-}
-
 /* Parallax
 ---------------------------------------------------------------*/
 .parallax {
@@ -3025,4 +3015,21 @@ article .more-link a:hover:after {
 .shopify {
 	text-align: center; 
 	width: 100%;
+}
+
+#comprar {
+	color: white;
+	text-align: center; 
+	background-color: rgb(0, 0, 0);
+	border-radius: 25px;
+}
+
+#comprar a {
+	color: white;
+	text-align: center; 
+	font-size: 16px;
+}
+
+#comprar a:hover {
+	color: lightgray;
 }
