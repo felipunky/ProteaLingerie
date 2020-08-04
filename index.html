@@ -98,9 +98,12 @@
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->
                 </div><!-- /.container-fluid -->
-                <script src="modaz/javascript/BuyButtonShopify/Azalea.js"></script>
-                <script src="modaz/javascript/BuyButtonShopify/Cala.js"></script>
-                <script src="modaz/javascript/BuyButtonShopify/Dalia.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/BraletteOpalo.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/BraletteTurquesa.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/PantyAmatista.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/SetJade.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/SetLoto.js"></script>
+                <script src="modaz/javascript/BuyButtonShopify/SetVictoria.js"></script>
             </header><!-- /header -->
         </div><!-- /#site-header-wrap -->
 
@@ -120,26 +123,6 @@
                         alt="" data-bgposition="center center" data-no-retina>
                        
                         <!-- Layers -->
-                        <div class="tp-caption tp-resizeme text-white font-weight-300"
-                            data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-93','-93','-93','-93']"
-                            data-fontsize="['24','24','24','18']"
-                            data-lineheight="['72','72','72','36']"
-                            data-width="full"
-                            data-height="none"
-                            data-whitespace="normal"
-                            data-transform_idle="o:1;"
-                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                            data-mask_in="x:0px;y:[100%];" 
-                            data-mask_out="x:inherit;y:inherit;" 
-                            data-start="700" 
-                            data-splitin="none" 
-                            data-splitout="none" 
-                            data-responsive_offset="on">
-                            TENDENCIAS VERANO 2020
-                        </div>
-
                         <div class="tp-caption tp-resizeme text-white font-weight-500"
                             data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
                             data-y="['middle','middle','middle','middle']" data-voffset="['-42','-42','-42','-42']"
@@ -300,9 +283,14 @@
                             <div class="item data-effect-item">
                                 <div class="inner">
                                     <div class="thumb">
-                                        <img src="modaz/images/image-box/imgbox-1-375x500.jpg" alt="Image">
+                                        <img src="modaz/images/Index/71_Small.JPG" 
+                                        data-src="modaz/images/Index/71.JPG"
+                                        width="2592"
+                                        height="3872"
+                                        alt="Sets">
                                         <div class="elm-btn">
-                                            <a href="#" class="themesflat-button bg-white width-150">SETS</a>
+                                            <a href="modaz/Sets.html" 
+                                            class="themesflat-button bg-white width-150">SETS</a>
                                         </div>
                                         <div class="overlay-effect bg-color-1"></div>
                                     </div>
@@ -314,22 +302,32 @@
                         <div class="flat-image-box style-1 row2 data-effect clearfix">
                             <div class="item data-effect-item">
                                 <div class="inner">
-                                    <div class="thumb">
-                                        <img src="modaz/images/image-box/imgbox-1-375x240.jpg" alt="Image">
+                                    <div class="lazyload thumb">
+                                        <img src="modaz/images/Index/13_Small.JPG" 
+                                        data-src="modaz/images/Index/13.JPG"
+                                        width="3872"
+                                        height="2592"
+                                        alt="Bralettes">
                                         <div class="elm-btn">
-                                            <a href="#" class="themesflat-button bg-white width-150">BRALETTES</a>
+                                            <a href="modaz/Bralettes.html" 
+                                            class="themesflat-button bg-white width-150">BRALETTES</a>
                                         </div>
                                         <div class="overlay-effect bg-color-1"></div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="item data-effect-item">
+                            <div class="item data-effect-item" style="padding-top: 42px;">
                                 <div class="inner">
                                     <div class="thumb">
-                                        <img src="modaz/images/image-box/imgbox-2-375x240.jpg" alt="Image">
+                                        <img src="modaz/images/Index/37_Small.JPG" 
+                                        data-src="modaz/images/Index/37.JPG"
+                                        width="3872"
+                                        height="2592"
+                                        alt="Pantys">
                                         <div class="elm-btn">
-                                            <a href="#" class="themesflat-button bg-white width-150">PANTYS</a>
+                                            <a href="modaz/Pantys.html" 
+                                            class="themesflat-button bg-white width-150">PANTYS</a>
                                         </div>
                                         <div class="overlay-effect bg-color-1"></div>
                                     </div>
@@ -343,37 +341,45 @@
         <!-- END IMAGE BOX -->
 
         <!-- PRODUCT NEW -->
-        <section class="flat-row row-product-new">
+        <section class="flat-row main-shop" id="todos">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="title-section margin-bottom-52">
-                            <h2 class="title">
-                                Lo Nuevo
-                            </h2>
-                        </div>
-                        <div class="product-content product-fourcolumn clearfix">
-                            <ul class="product style2 clearfix">
-                                <!-- Azalea -->
+                        <div class="text">
+							<h3>Todos</h3>
+						</div>
+                        <div class="product-content product-threecolumn clearfix">
+                            <ul class="product">
+                                <!-- Bralette Opalo -->
                                 <li class="product-item">
-                                    <div id='product-component-1596470626593'></div>
+                                    <div id='product-component-1596491881180'></div>
                                 </li>
-
-                                <!-- Cala -->
+                                <!-- Bralette Turquesa -->
                                 <li class="product-item">
-                                    <div id='product-component-1596473184739'></div>
+                                    <div id='product-component-1596492282920'></div>
                                 </li>
-
-                                <!-- Dalia -->
+                                <!-- Panty Amatista -->
                                 <li class="product-item">
-                                    <div id='product-component-1596471417698'></div>
+                                    <div id='product-component-1596492410102'></div>
                                 </li>
-                            </ul>
-                        </div>
-                    </div>
+                                <!-- Set Jade -->
+                                <li class="product-item">
+                                    <div id='product-component-1596492873519'></div>
+                                </li>
+                                <!-- Set Loto -->
+                                <li class="product-item">
+                                    <div id='product-component-1596492965560'></div>
+                                </li>
+                                <!-- Set Victoria -->
+                                <li class="product-item">
+                                    <div id='product-component-1596493342933'></div>
+                                </li>
+                            </ul><!-- /.product -->
+                        </div><!-- /.product-content -->
+                    </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section>
+        </section><!-- /.flat-row -->
         <!-- END PRODUCT NEW -->
 
         <!-- ANIMATION BOX -->
