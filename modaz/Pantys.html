@@ -101,7 +101,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: contain;"  
-        data-original="images/Index/12.JPG">
+        data-original="images/Index/12_Medium.JPG">
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12">
@@ -247,7 +247,14 @@
     <script src="javascript/gmap3.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
     <script src="javascript/jquery-ui.js"></script>
-    
+    <script src="javascript/lazyload.min.js"></script>
+    <script>
+        window.addEventListener("load", function(event) {
+        let images = document.querySelectorAll("[data-src]");
+        let lazy = lazyload(images, {"src": "data-src"});
+    });
+    </script>
+
     <script src="javascript/jquery.cookie.js"></script>
     <script src="javascript/main.js"></script>
 
