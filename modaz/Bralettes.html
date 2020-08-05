@@ -90,13 +90,11 @@
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->
                 </div><!-- /.container-fluid -->
-                <script src="javascript/BuyButtonShopify/BraletteOpalo.js"></script>
-                <script src="javascript/BuyButtonShopify/BraletteTurquesa.js"></script>
+                <script id="iterate" src="javascript/BuyButtonShopify/Iterate.js"></script>
             </header><!-- /header -->
         </div><!-- /.site-header-wrap -->
 
     	<!-- Page title -->
-        </div><!-- /.page-title -->
         <div class="lazyload page-title parallax parallax2" style="
         background-image:url(images/Index/12_XSmall.JPG);
         background-position: center center;
@@ -125,33 +123,47 @@
     		</div><!-- /.container -->
         </div><!-- /.page-title -->
 
-    	<section class="flat-row main-shop" id="todos">
-            <div class="container"></div>
+        <!-- PRODUCT NEW -->
+        <section class="flat-row main-shop" id="todos">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text">
-							<h3>Bralettes</h3>
+							<h3>Productos</h3>
 						</div>
-                        <div class="product-content product-threecolumn clearfix">
+                        <div class="product-content product-threecolumn clearfix"
+                        style="margin-top: 30px">
                             <ul class="product">
                                 <!-- Bralette Opalo -->
-                                <li class="product-item">
+                                <li class="bralette product-item">
                                     <center>
-                                    <div id='product-component-1596491881180'></div>
+                                        <div class="wps-buy-button" 
+                                        id='product-component-1596491881180'
+                                        data-id='5564780576918'></div>
                                     </center>
                                 </li>
                                 <!-- Bralette Turquesa -->
-                                <li class="product-item">
+                                <li class="bralette product-item">
                                     <center>
-                                    <div id='product-component-1596492282920'></div>
+                                        <div class="wps-buy-button" 
+                                        id='product-component-1596492282920'
+                                        data-id='5564792471702'></div>
                                     </center>
                                 </li>
                             </ul><!-- /.product -->
                         </div><!-- /.product-content -->
+                        <div class="row">
+                            <div class="col-sm-6 offset-sm-3 col-md-6 offset-md-3" id="comprar">
+                                <a href="modaz/shop-3col.html">
+                                    Ir a la tienda
+                                </a>
+                            </div>
+                        </div>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.flat-row -->
+        <!-- END PRODUCT NEW -->
 
 		<section class="flat-row mail-chimp">
 			<div class="container">
