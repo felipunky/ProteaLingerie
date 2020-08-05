@@ -89,9 +89,7 @@
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->
                 </div><!-- /.container-fluid -->
-                <!-- <script src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js">
-                </script>  -->
-                <script src="modaz/javascript/BuyButtonShopify/Iterate.js"></script>
+                <script id="iterate" src="modaz/javascript/BuyButtonShopify/Iterate.js"></script>
             </header><!-- /header -->
         </div><!-- /#site-header-wrap -->
 
@@ -404,7 +402,7 @@
         <!-- END ANIMATION BOX -->
 
         <!-- PRODUCT -->
-        <section class="flat-row row-product-project style-1">
+        <section class="flat-row row-product-project style-1" id="mejoresVentas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -412,14 +410,14 @@
                             <h2 class="title">Mejores Ventas</h2>
                         </div>
                         <ul class="flat-filter style-1 text-center max-width-682 clearfix grid">
-                            <li class="active"><a href="#" data-filter="*">Todos</a></li>
-                            <li><a href="#" data-filter=".bralette">Bralettes</a></li>
-                            <li><a href="#" data-filter=".panty">Pantys</a></li>
-                            <li><a href="#" data-filter=".set">Sets</a></li>
-                            <li><a href="#" data-filter=".set">Descuentos</a></li>
+                            <li class="active"><a href="#mejoresVentas" data-filter="*">Todos</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".bralette">Bralettes</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".panty">Pantys</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".set">Sets</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".set">Descuentos</a></li>
                         </ul>
                         <div class="divider h54"></div>
-                        <div class="grid product-content product-threecolumn clearfix">
+                        <div class="product-content product-threecolumn clearfix">
                             <ul class="product style2 isotope-product clearfix">
                                 <!-- Bralette Opalo -->
                                 <li class="bralette product-item">
@@ -641,11 +639,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
     <script src="modaz/javascript/jquery-ui.js"></script>
     <script src="modaz/javascript/lazysizes.min.js" async></script>
-
-    <script src="modaz/javascript/script.js"></script>
     
     <script src="modaz/javascript/jquery.cookie.js"></script>
     <script src="modaz/javascript/main.js"></script>
+    <script defer src="modaz/javascript/script.js"></script>
 
     <!-- Revolution Slider -->
     <script src="modaz/rev-slider/js/jquery.themepunch.tools.min.js"></script>
