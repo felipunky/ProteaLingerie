@@ -536,7 +536,7 @@
     var flatIsotope = function() {
         if($().isotope) {
             var $container = $('.isotope-product');
-            $container.imagesLoaded(function(){
+            $container.append(divs).isotope('appended', divs, function () {
                 $container.isotope({
                     itemSelector: '.product-item',
                     transitionDuration: '1s',
