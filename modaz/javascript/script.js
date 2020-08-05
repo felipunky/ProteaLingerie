@@ -6,7 +6,7 @@ $('#rev-slider1').show().revolution({
     gridheight: 1296,
  
     /* Lazy Load options are "all", "smart", "single" and "none" */
-    lazyType: "smart",
+    lazyType: "all",
  
     /* ****************** */
     /* settings continued */

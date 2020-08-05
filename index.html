@@ -113,9 +113,9 @@
                     <!-- Slide 1 -->
                     <li data-transition="random">
                         <!-- Main Image -->
-                        <img src="modaz/images/Index/26_Small.JPG" 
-                        data-lazyload="modaz/images/Index/26_Medium.JPG" 
-                        alt="" data-bgposition="center center" data-no-retina
+                        <img src="modaz/images/Index/26_XSmall.jpg" 
+                        data-lazyload="modaz/images/Index/26_Medium.jpg" 
+                        alt="Main image" data-bgposition="center center" data-no-retina
                         width="484"
                         height="324">
                        
@@ -183,9 +183,9 @@
                     <!-- Slide 2 -->
                     <li data-transition="random">
                         <!-- Main Image -->
-                        <img src="modaz/images/Index/3_Small.JPG" 
-                        data-lazyload="modaz/images/Index/3_Medium.JPG" 
-                        alt="" data-bgposition="center center" data-no-retina
+                        <img src="modaz/images/Index/3_XSmall.jpg" 
+                        data-lazyload="modaz/images/Index/3_Medium.jpg" 
+                        alt="Second Image" data-bgposition="center center" data-no-retina
                         width="484"
                         height="324">
                        
@@ -283,10 +283,9 @@
                             <div class="item data-effect-item">
                                 <div class="inner">
                                     <div class="thumb">
-                                        <img src="modaz/images/Index/71_Small.JPG" 
+                                        <img src="modaz/images/Index/71_XSmall.JPG" 
                                         data-src="modaz/images/Index/71_Medium.JPG"
-                                        width="2592"
-                                        height="3872"
+                                        class="lazyload"
                                         alt="Sets">
                                         <div class="elm-btn">
                                             <a href="modaz/Sets.html" 
@@ -303,10 +302,9 @@
                             <div class="item data-effect-item">
                                 <div class="inner">
                                     <div class="lazyload thumb">
-                                        <img src="modaz/images/Index/13_Small.JPG" 
+                                        <img src="modaz/images/Index/13_XSmall.JPG" 
                                         data-src="modaz/images/Index/13_Medium.JPG"
-                                        width="3872"
-                                        height="2592"
+                                        class="lazyload"
                                         alt="Bralettes">
                                         <div class="elm-btn">
                                             <a href="modaz/Bralettes.html" 
@@ -320,10 +318,9 @@
                             <div class="item data-effect-item">
                                 <div class="inner">
                                     <div class="thumb">
-                                        <img src="modaz/images/Index/37_Small.JPG" 
+                                        <img src="modaz/images/Index/37_XSmall.JPG" 
                                         data-src="modaz/images/Index/37_Medium.JPG"
-                                        width="3872"
-                                        height="2592"
+                                        class="lazyload"
                                         alt="Pantys">
                                         <div class="elm-btn">
                                             <a href="modaz/Pantys.html" 
@@ -631,13 +628,7 @@
     <script src="modaz/javascript/gmap3.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
     <script src="modaz/javascript/jquery-ui.js"></script>
-    <script src="modaz/javascript/lazyload.min.js"></script>
-    <script>
-        window.addEventListener("load", function(event) {
-        let images = document.querySelectorAll("[data-src]");
-        let lazy = lazyload(images, {"src": "data-src"});
-    });
-    </script>
+    <script src="modaz/javascript/lazysizes.min.js" async></script>
     
     <script src="modaz/javascript/jquery.cookie.js"></script>
     <script src="modaz/javascript/main.js"></script>
@@ -645,8 +636,8 @@
     <!-- Revolution Slider -->
     <script src="modaz/rev-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="modaz/rev-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <!--<script src="modaz/javascript/rev-slider.js"></script>-->
-    <script src="modaz/javascript/script.js"></script>
+    <script src="modaz/javascript/rev-slider.js"></script>
+    <!--<script src="modaz/javascript/script.js"></script>-->
     <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->  
     <script src="modaz/rev-slider/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="modaz/rev-slider/js/extensions/revolution.extension.carousel.min.js"></script>
