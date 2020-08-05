@@ -90,7 +90,7 @@
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->
                 </div><!-- /.container-fluid -->
-                <script src="javascript/BuyButtonShopify/Iterate.js"></script>
+                <script id="iterate" src="javascript/BuyButtonShopify/Iterate.js"></script>
             </header><!-- /header -->
         </div><!-- /.site-header-wrap -->
 
@@ -198,15 +198,48 @@
     		</div><!-- /.container -->
     	</div><!-- /.page-title -->
 
-    	<section class="flat-row main-shop" id="todos">
+    	<!-- PRODUCT -->
+        <section class="flat-row row-product-project style-1" id="mejoresVentas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="text">
-							<h3>Todos</h3>
-						</div>
+                        <div class="title-section margin-bottom-41">
+                            <h2 class="title">Mejores Ventas</h2>
+                        </div>
+                        <ul class="flat-filter style-1 text-center max-width-682 clearfix grid">
+                            <li class="active"><a href="#mejoresVentas" data-filter="*">Todos</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".bralette">Bralettes</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".panty">Pantys</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".set">Sets</a></li>
+                            <li><a href="#mejoresVentas" data-filter=".set">Descuentos</a></li>
+                        </ul>
+                        <div class="divider h54"></div>
                         <div class="product-content product-threecolumn clearfix">
-                            <ul class="product">
+                            <ul class="product style2 isotope-product clearfix">
+                                <!-- Set Jade -->
+                                <li class="set product-item">
+                                    <center>
+                                        <div class='wps-buy-button'
+                                        id='product-component-1596492873519'
+                                        data-id='5488536453270'></div>
+                                    </center>
+                                </li>
+                                <!-- Set Loto -->
+                                <li class="set product-item">
+                                    <center>
+                                        <div class='wps-buy-button'
+                                        id='product-component-1596492965560'
+                                        data-id='5545160278166'></div>
+                                    </center>
+                                </li>
+                                <!-- Set Victoria -->
+                                <li class="set product-item">
+                                    <center>
+                                        <div class='wps-buy-button'
+                                        id='product-component-1596493342933'
+                                        data-id='5488517021846'></div>
+                                    </center>
+                                </li>
                                 <!-- Bralette Opalo -->
                                 <li class="bralette product-item">
                                     <center>
@@ -255,45 +288,13 @@
                                         data-id='5488549462166'></div>
                                     </center>
                                 </li>
-                                <!-- Set Jade -->
-                                <li class="set product-item">
-                                    <center>
-                                        <div class='wps-buy-button'
-                                        id='product-component-1596492873519'
-                                        data-id='5488536453270'></div>
-                                    </center>
-                                </li>
-                                <!-- Set Loto -->
-                                <li class="set product-item">
-                                    <center>
-                                        <div class='wps-buy-button'
-                                        id='product-component-1596492965560'
-                                        data-id='5545160278166'></div>
-                                    </center>
-                                </li>
-                                <!-- Set Victoria -->
-                                <li class="set product-item">
-                                    <center>
-                                        <div class='wps-buy-button'
-                                        id='product-component-1596493342933'
-                                        data-id='5488517021846'></div>
-                                    </center>
-                                </li>
-                            </ul><!-- /.product -->
-                        </div><!-- /.product-content -->
-                        <!--<div class="product-pagination text-center margin-top-11 clearfix">
-                            <ul class="flat-pagination">
-                                <li class="prev">
-                                    <a href="#"><i class="fa fa-angle-left"></i></a>
-                                </li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                            </ul>--><!-- /.flat-pagination -->
+                            </ul>
                         </div>
-                    </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.flat-row -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END PRODUCT -->
 
 		<section class="flat-row mail-chimp">
 			<div class="container">
@@ -402,6 +403,7 @@
     
     <script src="javascript/jquery.cookie.js"></script>
     <script src="javascript/main.js"></script>
+    <script defer src="javascript/script.js"></script>
 
     <!-- Revolution Slider -->
     <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
