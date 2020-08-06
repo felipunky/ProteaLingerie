@@ -2976,7 +2976,7 @@ article .more-link a:hover:after {
 #whats { 
 	z-index: 4;
 	position:fixed; 
-	top:95%; 
+	top:92%; 
 	left:2%; 
 	background-color: rgb(0, 0, 0);
 	border-radius: 25px;
