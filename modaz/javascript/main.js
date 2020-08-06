@@ -845,5 +845,6 @@
       //flatIsotope();
       flatCarouselOwl();
       flatContentBox();
+      questions();
    	});
 })(jQuery);
