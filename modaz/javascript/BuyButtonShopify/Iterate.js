@@ -74,12 +74,14 @@
                   "font-size": "13.6px"
                 }
               },
+              "buttonDestination": "modal",
               "contents": {
                 "img": false,
-                "imgWithCarousel": true
+                "imgWithCarousel": true,
+                "options": false
               },
               "text": {
-                "button": "AGEGAR AL CARRITO"
+                "button": "Ver Más"
               }
             },
             "productSet": {
@@ -120,7 +122,7 @@
                 }
               },
               "text": {
-                "button": "Add to cart"
+                "button": "Agregar al Carrito"
               }
             },
             "cart": {
@@ -137,8 +139,12 @@
                 }
               },
               "text": {
+                "title": "Carrito",
                 "total": "Subtotal",
-                "button": "Checkout"
+                "empty": "Carrito de compras vacío.",
+                "notice": "Costo de envío y descuentos se agregan en el Checkout.",
+                "button": "Checkout",
+                "noteDescription": ""
               }
             },
             "toggle": {
